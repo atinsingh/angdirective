@@ -1,0 +1,17 @@
+.container {
+    background: antiquewhite;
+    padding: 10px;
+}
+span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item-item {
+   list-style: none;
+   border-bottom:  1px solid teal;
+}
+
+.item {
+  list-style: none;
+}

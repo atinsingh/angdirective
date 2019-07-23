@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TestDirective } from './test.directive';
+import { PhonePipe } from './phone.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestDirective,
+    PhonePipe
   ],
   imports: [
     BrowserModule,
